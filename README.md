@@ -8,18 +8,11 @@ Design UTF-8 can be seen in the following table that originally
 proposed by *Dave Prosser* and subsequently modified by *Ken Thompson*. You 
 can read more on the table above in https://en.wikipedia.org/wiki/UTF-8
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## How To Install
 ```
 $ pip install utf8_docepoint
 ```
-=======
-You can read more on the table above in https://en.wikipedia.org/wiki/UTF-8
->>>>>>> 66663ffc166f5809406c577e26392e73c125912d
-=======
-You can read more on the table above in https://en.wikipedia.org/wiki/UTF-8
->>>>>>> 66663ffc166f5809406c577e26392e73c125912d
+
 
 ## Example
 
