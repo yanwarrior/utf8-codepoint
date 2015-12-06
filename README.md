@@ -6,7 +6,16 @@
 
 Design UTF-8 can be seen in the following table that originally 
 proposed by *Dave Prosser* and subsequently modified by *Ken Thompson*. You 
-can read more on the table above in https://en.wikipedia.org/wiki/UTF-8
+can read more on the table above in https://en.wikipedia.org/wiki/UTF-
+
+| Bit Code Point | The first code point | The last code point | Byte In sequence |
+|----------------|----------------------|---------------------|------------------|
+| 7              | U+0000               | U+007F              | 1                |
+| 11             | U+0080               | U+07FF              | 2                |
+| 16             | U+0800               | U+FFFF              | 3                |
+| 21             | U+10000              | U+1FFFFF            | 4                |
+| 26             | U+200000             | U+3FFFFFF           | 5                |
+| 31             | U+4000000            | U+7FFFFFFF          | 6                |
 
 ## How To Install
 ```
