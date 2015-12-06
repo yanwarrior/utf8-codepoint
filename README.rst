@@ -31,6 +31,21 @@ You can read more on the table above in `a link`_.
 
 .. _a link: https://en.wikipedia.org/wiki/UTF-8
 
+Installation
+-------------
+
+::
+
+	pip install utf8_codepoint
+
+
+Doc And Contribute
+-------------------
+
+More Documentation in `github`_.
+
+.. _github: https://github.com/yanwarsolahudinn/utf8-codepoint 
+
 Example
 --------
 
@@ -38,7 +53,7 @@ simple examples using this package.
 
 **Quick Start**
 
-::
+.. code:: python
 	
 	from utf8_codepoint import CodePoint
 
@@ -59,7 +74,7 @@ the result is:
 
 **to a hexadecimal representation**
 
-::
+.. code:: python
 	
 	from utf8_codepoint import CodePoint
 	...
@@ -74,7 +89,7 @@ the result is:
 	
 **to a string with binary representation**
 
-::
+.. code:: python
 	
 	from utf8_codepoint import CodePoint
 	...
@@ -89,7 +104,7 @@ the result is:
 
 **to a list of binary string representation**
 
-::
+.. code:: python
 	
 	from utf8_codepoint import CodePoint
 	...
@@ -105,7 +120,7 @@ the result is:
 
 **displays all the data with beautiful style**
 
-::
+.. code:: python
 
 	from utf8_codepoint import CodePoint
 	...
@@ -125,7 +140,7 @@ the result is:
     
 **Get all data**
 
-::
+.. code:: python
 
 	from utf8_codepoint import CodePoint
 	...
@@ -149,7 +164,7 @@ the result is:
 If you want to turn it into a json format, you can pass a 
 true value as a parameter in the method get_all:
 
-::
+.. code:: python
 
 	cp.get_all(True)
 
